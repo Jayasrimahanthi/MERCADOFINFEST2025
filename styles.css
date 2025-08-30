@@ -458,3 +458,9 @@ text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
   text-align: left;
   padding-left: 20px;
 }
+@media (max-width: 768px) {
+    .banner-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;  /* Ensures the image fills the container without distorting */
+    }
